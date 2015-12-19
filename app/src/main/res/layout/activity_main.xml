@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout
+android:id="@+id/linearLayout1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:hint="text"
+android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/f_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="FATHER'S/GUARDIAN NAME"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/fname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+
+    android:layout_marginRight="5dp"
+    android:singleLine="true" >
+
+    <requestFocus />
+</EditText>
+
+<TextView
+    android:id="@+id/m_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="MOTHER'S NAME"
+
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/mname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+
+    android:layout_marginRight="5dp"
+    android:singleLine="true" />
+
+
+<TextView
+    android:id="@+id/con"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="CONTACT NUMBER"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/contact"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" />
+<TextView
+    android:id="@+id/address1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="ADDRESS1"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/eaddress1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" />
+<TextView
+    android:id="@+id/address2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="ADDRESS2"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/eaddress2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" />
+
+<TextView
+    android:id="@+id/cityvillage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="CITY VILLAGE"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/ecityvillage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" />
+
+<TextView
+    android:id="@+id/stateprovince"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="STATE PROVINCE"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/estateprovince"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" />
+
+<TextView
+    android:id="@+id/country"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="COUNTRY"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/ecountry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" />
+
+<TextView
+    android:id="@+id/postalcode"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="POSTAL CODE"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/epostalcode"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:inputType="number"/>
+
+
+<TextView
+    android:id="@+id/email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="EMAIL ID"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+<EditText
+    android:id="@+id/e_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:inputType="number"/>
+
+<TextView
+    android:id="@+id/alt_email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="ALTERNATE EMAIL ID"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+<EditText
+    android:id="@+id/e_altmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/pan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="UNIQUE ID/PAN NUMBER"
+        android:textColor="#F00"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:id="@+id/epan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/birthdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="CHILD'S BIRTH DATE"
+        android:textColor="#F00"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:id="@+id/ebirthdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+
+
+<TextView
+    android:id="@+id/pass"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:text="PASSWORD"
+    android:textColor="#F00"
+    android:textSize="25dp"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/epass"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:inputType="textPassword" />
+
+
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Submit"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/cancel" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/cancel" />
+
+</RelativeLayout>
+</LinearLayout>
+
+</ScrollView>
